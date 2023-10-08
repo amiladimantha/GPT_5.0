@@ -53,8 +53,7 @@
     outline: none;
     color: #fff;
 
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-radius: 5px;
 }
 
 .gpt3__header-content__input button {
@@ -72,8 +71,7 @@
     cursor: pointer;
     outline: none;
 
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-radius: 5px;
 }
 
 .gpt3__header-content__people {
