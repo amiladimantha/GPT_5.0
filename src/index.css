@@ -6,9 +6,24 @@
   --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
   --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
   
-  --color-bg: #040C18;
-  --color-footer : #031B34;
+  /* --color-bg: #ffffff; */
+  --color-footer : var(--color-bg);
   --color-blog: #042c54;
   --color-text: #81AFDD;
   --color-subtext: #FF8A71;
+
+  /* ff 3.6+ */
+  --color-bg: -moz-radial-gradient(circle at 3% 25%, rgb(4, 12, 24, 1) 0%, rgba(0, 0, 0) 100%);
+
+  /* safari 5.1+,chrome 10+ */
+  --color-bg: -webkit-radial-gradient(circle at 3% 25%, rgb(4, 12, 24, 1) 0%, rgba(0, 0, 0) 100%);
+
+  /* opera 11.10+ */
+  --color-bg: -o-radial-gradient(circle at 3% 25%, rgb(4, 12, 24, 1) 0%, rgba(0, 0, 0) 100%);
+
+  /* ie 10+ */
+  --color-bg: -ms-radial-gradient(circle at 3% 25%, rgb(4, 12, 24, 1) 0%, rgba(0, 0, 0) 100%);
+
+  /* global 92%+ browsers support */
+  --color-bg: radial-gradient(circle at 3% 25%, rgb(4, 12, 24, 1) 0%, rgba(0, 0, 0) 100%);
 }
