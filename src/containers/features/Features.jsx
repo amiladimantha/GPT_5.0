@@ -4,22 +4,22 @@ import './features.css';
 
 const featuresData = [
   {
-    title: 'Versatile Natural Language Processing',
-    text: 'GPT-5, like its predecessor GPT-4.5, excels in responding to natural language questions and prompts. It can follow complex instructions, solve difficult problems, perform math operations, answer questions, make inferences, and generate stories.'
-  },
-  {
-    title: 'Strong Performance on Standardized Tests',
-    text: "GPT-5's abilities were evaluated using standardized tests, including the Bar Exam and SAT Evidence-Based Reading & Writing exam. It achieved high scores, showcasing its ability to generate coherent responses based on the vast knowledge it acquired during training."
-  },
-  {
-    title: 'Token Prediction and Training',
-    text: "GPT-5's training methodology includes predicting the next token in a sequence of text. While the specific training process is proprietary, it typically involves converting data into tokens, refining the dataset, and applying reinforcement learning. Adjustments to the model's weights during training enhance its understanding of semantic relationships."
-  },
-  {
-    title: 'Chat Completions API and Upgrades',
-    text: "OpenAI offers the Chat Completions API, enabling developers to leverage GPT-5 for interactive conversational tasks, such as chatbots. The API has seen improvements, and in January 2024, it will transition to using even newer completion models. Additionally, fine-tuning capabilities for GPT-5 are expected to be available, following the pattern established with GPT-4.5."
-  },
-];
+    title: 'Enhanced Natural Language Processing',
+    text: 'GPT-5 excels in NLP, solving complex problems, answering questions, and generating narratives.'
+    },
+    {
+    title: 'High Test Performance',
+    text: 'GPT-5 scored impressively on standardized tests, showcasing its coherent responses.'
+    },
+    {
+    title: 'Token Prediction in Training',
+    text: "GPT-5's training involves predicting text tokens, refining datasets, and adjusting weights for better understanding."
+    },
+    {
+    title: 'Chat Completions API and Advancements',
+    text: 'The Chat Completions API for GPT-5 has improved and will transition to newer models in January 2024. Fine-tuning capabilities are expected.'
+    },
+    ];
 
 const Features = () => (
   <div className="gpt3__features section__padding" id="features">
