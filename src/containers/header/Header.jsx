@@ -83,8 +83,8 @@ const Header = () => {
               placeholder='Type your Email here'
             />
             <button type='submit'>
-              {loading ? 'Sending ' : 'Send Us '}
-              Your Mail
+              {loading ? 'Requesting ' : 'Request '}
+              Early Access
             </button>
           </form>
         </div>
