@@ -1,5 +1,5 @@
-![image](https://github.com/amiladimantha/GPT_3/assets/84844150/b3e8fe37-4e3e-4b36-925c-f92405d79415)
-# GPT_3
+![Alt text](image.png)
+# GPT_5.0
 
 ## Built With
 
