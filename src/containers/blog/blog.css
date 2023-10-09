@@ -35,7 +35,7 @@
     grid-gap: 2rem;
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 1200px) {
     .gpt3__blog-container {
         flex-direction: column-reverse;
     }
@@ -49,9 +49,9 @@
        width: 48%;
     }
 
-    .gpt3__blog-container_groupA .gpt3__blog-container_article-image {
+    /* .gpt3__blog-container_groupA .gpt3__blog-container_article-image {
         height: 250px;
-    }
+    } */
 }
 
 @media screen and (max-width: 700px) {
