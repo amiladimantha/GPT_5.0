@@ -4,7 +4,8 @@
 
     display: flex;
     flex-direction: column;
-    background: var(--gradient-bar);
+    background: linear-gradient(103.22deg, #9838fe -13.86%, #fe7d37 99.55%);
+    padding: 2px;
     border-radius: 10px;
 }
 
@@ -47,6 +48,10 @@
     color: #fff;
     margin-bottom: 5rem;
     cursor: pointer;
+}
+
+.article_heading:hover{
+    border-bottom: none;
 }
 
 .gpt3__blog-container_article-content p:last-child {

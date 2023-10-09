@@ -126,10 +126,10 @@
     display: none;
 }
 
-a:hover{
-  /* color: #AE67FA ; */
-  border-bottom: 3px solid #F49867;
-}
+a:hover {
+    border-bottom: 3px solid #F49867;
+    display: inline-block; /* Makes the border only as long as the word */
+  }
 
 @media screen and (max-width: 1050px) {
     .gpt3__navbar-links_container {

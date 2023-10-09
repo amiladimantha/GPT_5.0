@@ -20,31 +20,33 @@ const Footer = () => (
     <div className="gpt3__footer-links">
       <div className="gpt3__footer-links_logo">
         <img src={gpt3Logo} alt="gpt3_logo" />
-        <p>Crechterwoord K12 182 DK Alknjkcb, <br /> All Rights Reserved</p>
+        <p>Open AI <br /> All Rights Reserved</p>
       </div>
       <div className="gpt3__footer-links_div">
         <h4>Links</h4>
-        <p>Overons</p>
-        <p>Social Media</p>
-        <p>Counters</p>
-        <p>Contact</p>
+        <p>Twitter</p>
+        <p>Youtube</p>
+        <p>Github</p>
+        <p>Linkedin</p>
       </div>
       <div className="gpt3__footer-links_div">
         <h4>Company</h4>
-        <p>Terms & Conditions </p>
-        <p>Privacy Policy</p>
-        <p>Contact</p>
+        <p>About</p>
+        <p>Careers</p>
+        <p>Security</p>
+        <p>Customer Stories</p>
+        <p>Blog</p>
       </div>
       <div className="gpt3__footer-links_div">
         <h4>Get in touch</h4>
-        <p>Crechterwoord K12 182 DK Alknjkcb</p>
-        <p>085-132567</p>
-        <p>info@payme.net</p>
+        <p>San Francisco, California</p>
+        <p>(555) 555-1234</p>
+        <p>info@openai.net</p>
       </div>
     </div>
 
     <div className="gpt3__footer-copyright">
-      <p>@2021 GPT-3. All rights reserved.</p>
+      <p>@2023 GPT-5.0. All rights reserved.</p>
     </div>
   </div>
 );

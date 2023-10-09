@@ -9,7 +9,7 @@ const Article = ({ imgUrl, date, text, link }) => (
     <div className="gpt3__blog-container_article-content">
       <div>
         <p>{date}</p>
-        <a href={link} target='_blank' rel="noopener noreferrer"><h3>{text}</h3></a>        
+        <a className="article_heading" href={link} target='_blank' rel="noopener noreferrer"><h3>{text}</h3></a>        
       </div>
       <a href={link} target='_blank' rel="noopener noreferrer"> <p>Read Full Article</p></a>       
     </div>
