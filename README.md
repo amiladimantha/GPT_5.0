@@ -8,7 +8,7 @@
 
 ## Live Demo
 
-- Click [here](https://gpt-3-sigma-one.vercel.app/) to view the live demo.
+- Click [here](https://gpt-5-0-rosy.vercel.app/) to view the live demo.
 
 ## Getting Started
 
@@ -21,7 +21,7 @@ Make sure you have node `16.0.0` or higher and npm `9.0.0` or higher installed.
 ### Setup
 
 - With git, clone the code to your machine, or download a ZIP of all the files directly.
-- [Download the ZIP file from this location](https://github.com/amiladimantha/GPT_3/archive/refs/heads/master.zip) or run the following [git](https://git-scm.com/) command to clone the files to your machine:
+- [Download the ZIP file from this location](https://github.com/amiladimantha/GPT_5.0/archive/refs/heads/master.zip) or run the following [git](https://git-scm.com/) command to clone the files to your machine:
 
 ```
 git clone https://github.com/amiladimantha/GPT_5.0.git
