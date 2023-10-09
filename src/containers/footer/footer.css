@@ -25,6 +25,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
 
     padding: 1rem;
     border: 1px solid #fff;
@@ -32,6 +33,10 @@
 
     margin-bottom: 10rem;
     cursor: pointer;
+}
+
+.gpt3__footer-btn:hover{
+    background: var(--gradient-bar);
 }
 
 .gpt3__footer-btn p {
@@ -65,7 +70,7 @@
 
 .gpt3__footer-links_logo img {
     width: 118px;
-    height: 30px;
+    height: 35px;
 
     margin-bottom: 1rem;
 }
