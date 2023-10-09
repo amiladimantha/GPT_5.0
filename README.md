@@ -24,7 +24,7 @@ Make sure you have node `16.0.0` or higher and npm `9.0.0` or higher installed.
 - [Download the ZIP file from this location](https://github.com/amiladimantha/GPT_3/archive/refs/heads/master.zip) or run the following [git](https://git-scm.com/) command to clone the files to your machine:
 
 ```
-git clone https://github.com/amiladimantha/GPT_3.git
+git clone https://github.com/amiladimantha/GPT_5.0.git
 ```
 
 - Once the files are on your machine, open them in [Visual Studio Code](https://code.visualstudio.com/download).
