@@ -2,8 +2,10 @@ import React, { useState } from "react";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import logo from "../../assets/gpt.png";
 import "./navbar.css";
+import { SignIn, SignUp } from "..";
 
 const Menu = () => (
+  
   <>
     <p>
       <a className="nav_links" href="#home">
@@ -35,6 +37,16 @@ const Menu = () => (
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
+  const [SignInModalVisible,setSignInModalVisibile ] = useState(false);
+  const [SignUpModalVisible,setSignUpModalVisibile ] = useState(false);
+
+  const toggleSignUp = () =>{
+    setSignUpModalVisibile(!SignUpModalVisible);
+  }
+
+  const toggleSignIn = () =>{
+    setSignInModalVisibile(!SignInModalVisible);
+  }
 
   return (
     <div className="gpt3__navbar">
