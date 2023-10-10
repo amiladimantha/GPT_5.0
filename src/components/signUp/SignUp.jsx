@@ -11,15 +11,15 @@ const SignUpForm = ({ visible, onCancel }) => {
 
   return (
     <Modal
-      title="Registration"
+      title="Sign Up"
       open={visible}
       onCancel={onCancel}
       footer={[
         <Button key="cancel" onClick={onCancel}>
           Cancel
         </Button>,
-        <Button key="submit" type="primary" onClick={handleOk}>
-          Register
+        <Button key="submit" className="submit_button" type="primary" onClick={handleOk}>
+          Sign Up
         </Button>,
       ]}
       className="registration-form"

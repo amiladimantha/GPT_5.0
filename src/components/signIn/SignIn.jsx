@@ -11,15 +11,15 @@ const SignInForm = ({ visible, onCancel }) => {
 
   return (
     <Modal
-      title="Log In"
+      title="Sign In"
       open={visible}
       onCancel={onCancel}
       footer={[
         <Button key="cancel" onClick={onCancel}>
           Cancel
         </Button>,
-        <Button key="submit" type="primary" onClick={handleOk}>
-          Log In
+        <Button key="submit" className="submit_button" type="primary" onClick={handleOk}>
+          Sign In
         </Button>,
       ]}
       className="login-form"

@@ -59,9 +59,15 @@ const Navbar = () => {
         </div>
       </div>
       <div className="gpt3__navbar-sign">
-        <p>Sign in</p>
-        <button type="button">Sign up</button>
+        <p onClick={toggleSignIn}>Sign in</p>
+        <button type="button" onClick={toggleSignUp}>Sign up</button>
       </div>
+      {SignInModalVisible && (
+        <SignIn visible={SignInModalVisible} onCancel={toggleSignIn} />
+      )}
+      {SignUpModalVisible && (
+        <SignUp visible={SignUpModalVisible} onCancel={toggleSignUp} />
+      )}
       <div className="gpt3__navbar-menu">
         {toggleMenu ? (
           <RiCloseLine
